@@ -1,0 +1,205 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    .logo{
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo img{
+        width: 60%;
+        
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: sticky;
+        top: 10px;
+        cursor: pointer;
+        height: 50px;
+    }
+    .navlist{
+       width: 70%;
+       display: flex;
+       align-items: center;
+    }
+    .navlist li{
+        list-style: none;
+        padding: 14px 36px;
+    }
+    .navlist li a{
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+    .navlist li:hover{
+        background-color: rgb(4, 0, 255);
+        color: #7abeff;
+        
+    }
+    .rightnav{
+        width: 30%;
+        text-align: right;
+        padding-right: 20px;
+    }
+
+    #search{
+        padding: 5px;
+        font-size: 19px;
+        border: 2px solid gray ;
+    }
+
+    .background{
+        background: rgba(0, 0, 0, 0.7) url(/ieducate/images/bg2.jpg);
+        background-size: cover;
+        background-blend-mode: darken;
+
+    }
+
+    .firstsection{
+        height: 100vh;
+    }
+    .boxmain{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        max-width: 50%;
+        margin: auto;
+        height: 80%;
+    }
+    .firsthalf{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .secondhalf{
+        width: 30%;
+    }
+    .secondhalf img{
+        width: 150%;
+        
+    }
+
+    .textbig{
+        font-size: 2.5rem;
+    }
+    .textsmall{
+        font-size: 0.9rem;
+        margin-top: 23px;
+        padding: 8px;
+    }
+    .btn{
+        padding: 4px 6px;
+        border: 2px solid white;
+        margin: 8px 3px;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover{
+        background-color: blue;
+        color: white;
+    }
+
+    .sec{
+        height: 300px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 70%;
+        margin: auto;
+       
+    }
+    .left{
+        
+        flex-direction: row-reverse;
+       
+    }
+    .sec img{
+        width: 250px;
+        border: 2px solid grey;
+        border-radius: 24px;
+     
+    }
+    
+
+    .para{
+        padding: 0 70px;
+    }
+    .container{
+        background-color: #b7b3e1;
+    }
+    .bglight{
+        background-color: rgb(197 224 249);
+    }
+    ::placeholder {
+        font-style: italic;
+        font-size: 0.7em;
+        padding: 5px;
+      }
+
+      .contact{
+          height: 34vh;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          max-width: 80%;
+          margin: auto;
+      }
+      .logoname{
+          display: flex;
+          justify-content: end;
+          align-items: center;
+      }
+      .logoname img{
+          width: 250px;
+      }
+      
+      .textcenter{
+          text-align: center;
+      }
+      #sus{
+          padding: 8px;
+          width: 250px;
+      }
+      #sus::placeholder{
+          font-size: 1rem;
+          font-style: normal;
+      }
+
+      .lnk{
+        text-decoration: none;
+        background-color: white;
+        color: black;
+      }
+      #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px; 
+        right: 30px; 
+        z-index: 99;
+        border: none;     
+        outline: none;        
+        background-color: rgb(0, 60, 255); 
+        color: white;  
+        cursor: pointer;  
+        padding: 15px;    
+        border-radius: 10px;
+        font-size: 18px; 
+      }
+      
+      #myBtn:hover {
+        background-color: #555; 
+      }
+      
