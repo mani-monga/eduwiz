@@ -20,7 +20,7 @@
         align-items: center;
         justify-content: center;
         position: sticky;
-        top: 10px;
+        top: 0;
         cursor: pointer;
         height: 50px;
     }
@@ -57,7 +57,7 @@
     }
 
     .background{
-        background: rgba(0, 0, 0, 0.7) url(/ieducate/images/bg2.jpg);
+        background: rgba(0, 0, 0, 0.7) url(../images/bg2.jpg);
         background-size: cover;
         background-blend-mode: darken;
 
